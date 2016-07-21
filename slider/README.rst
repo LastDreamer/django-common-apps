@@ -14,7 +14,9 @@ pip install https://raw.githubusercontent.com/LastDreamer/django-common-apps/mas
 
 INSTALLED_APPS = [
   ...
+  
   'slides',
+  
   ...
 ]
 
