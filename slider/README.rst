@@ -4,14 +4,18 @@ Django Slider Flickity
 
 Заготовка под слайдер
 
-Как установить
+Как установить:
 -----------
+0. Установить через pip:
+
+pip install https://raw.githubusercontent.com/LastDreamer/django-common-apps/master/slider/dist/slider-0.1.tar.gz
 
 1. Добаить "slides" в settings.py
 
 INSTALLED_APPS = [
   ...
   'slides',
+  ...
 ]
 
 2. Унаследовать модель в главном модуле приложения:
