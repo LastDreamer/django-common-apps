@@ -40,4 +40,4 @@ Django Slider Flickity
 	{% block scripts %}
 		<link href="/static/css/flickity.css" rel="stylesheet"/>
 		<script src="/static/js/flickity.min.js"></script>
-	{% endblock scripts %}
+	{% endblock %}
