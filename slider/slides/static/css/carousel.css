@@ -1,0 +1,23 @@
+.carousel {
+    height: 454px;
+    overflow: hidden;
+}
+
+.carousel.flickity-enabled {
+    overflow: visible;
+}
+
+.carousel .carousel-cell{
+    height: 450px;
+    width: 1134px;
+}
+
+.carousel .carousel-cell.hidden {
+    display: none;
+}
+
+.carousel.flickity-enabled .carousel-cell.hidden {
+    display: block;
+    background-size: cover;
+    background-position: center;
+}

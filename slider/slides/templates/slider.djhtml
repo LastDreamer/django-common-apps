@@ -1,0 +1,16 @@
+<div class="carousel">
+    {% for slide in slides %}
+        <div class="carousel-cell{% if forloop.counter != 1 %} hidden{% endif %}" data-flickity-bg-lazyload="{{slide.image.url}}">
+            {% if slide.title or slide.description %}
+                <div class="advantages{% if slide.right %} right{% endif %}">
+                    {% if slide.title %}
+                        <span>{{slide.title}}</span>
+                    {% endif %}
+                    {% if slide.description %}
+                        <p>{{slide.description}}</p>
+                    {% endif %}
+                </div>
+            {% endif %}
+        </div>
+    {% endfor %}
+</div>
